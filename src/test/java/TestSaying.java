@@ -10,7 +10,7 @@ public class TestSaying {
     public void testGetContent() {
         // Setup
         Saying saying1 = new Saying(1, "John");
-        Saying saying2 = new Saying(2, "");
+        Saying saying2 = new Saying(2, ""); 
 
         // Run
         // Verify
