@@ -41,6 +41,12 @@ jacoco {
     reportsDir = file("$buildDir/code-coverage")
 }
 
+jacocoTestReport{
+    reports {
+        xml.enabled true
+    }
+}
+
 shadowJar {
     mergeServiceFiles()
     exclude 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/*.SF'
