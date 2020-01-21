@@ -30,7 +30,7 @@ jobs:
     #       for test coverage reports
     - name: Run Codecov
       run: ./gradlew jacocoTestReport
-
+      
     - name: Upload Codecov results
       with:
         TOKEN: ${{ secrets.CODECOV_TOKEN }}
